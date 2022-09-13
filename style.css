@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(images/morning.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+}
+#spansHeader{
+  background-color: rgba(229, 229, 229, .7);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+span{
+  font-size: 10rem;
+}
+#greeting{
+  font-size: 3rem;
+  background-color: rgba(229, 229, 229, .7);
+  padding: 10px 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  span{
+    font-size: 4rem;
+  }
+  #greeting{
+    font-size: 1.3rem;
+  }
+}
